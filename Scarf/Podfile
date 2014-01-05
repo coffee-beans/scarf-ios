@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "Scarf" do
+pod 'AFNetworking', '~> 2.0.3'
+pod 'ReactiveCocoa', '~> 2.1.8'
+#pod 'AFNetworking-RACExtensions', '~> 0.1.2'
+end
+
+target "ScarfTests" do
+
+end
+
